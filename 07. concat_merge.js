@@ -19,6 +19,6 @@ const stream4 = Rx.interval(1000).pipe(take(2));
 
 // merge 병합하다.
 
-Rx.merge(stream3, stream4).subscribe({
-  next: (data) => console.log(data),
-});
+// Rx.merge(stream3, stream4).subscribe({
+//   next: (data) => console.log(data),
+// });
